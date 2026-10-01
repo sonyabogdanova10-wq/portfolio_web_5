@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио-резюме | Sonya</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">port:folio.sonya.welcome</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">обо мне</a></li>
+                <li><a href="#education">образование</a></li>
+                <li><a href="#skills">навыки</a></li>
+                <li><a href="#projects">проекты</a></li>
+                <li><a href="#contacts">контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="pic/hero-bg.png" alt="Hero background" class="hero-bg">
+        <div class="hero-content">
+            <h1 id="typewriter"></h1>
+        </div>
+    </section>
+
+    <main>
+        <!-- Секция About me -->
+        <section id="about" class="section full-width-bg">
+            <h2><span class="accent">></span> Обо мне</h2>
+            <p>Меня зовут Соня, интересуюсь разными творческими направлениями от графического дизайна до 3D.</p>
+        </section>
+
+        <section id="education" class="section">
+            <h2><span class="accent">></span> Образование</h2>
+            <div class="card">
+                <h3>Среднее профессиональное (Колледж)</h3>
+                <p class="date">2018 – 2021</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <canvas id="skills-gradient"></canvas>
+            <h2><span class="accent">></span> Навыки</h2>
+            <ul class="skills-list">
+                <li>Photoshop</li>
+                <li>Krita</li>
+                <li>VS Code</li>
+                <li>Blender</li>
+                <li>ZBrush</li>
+                <li>Illustrator</li>
+            </ul>
+        </section>
+
+        <!-- Секция проектов на всю ширину экрана-->
+        <section id="projects" class="section full-width">
+            <h2><span class="accent">></span> Проекты</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="pic/project1.jpg" alt="Проект 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="pic/project2.jpg" alt="Проект 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="pic/project3.png" alt="Проект 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="pic/project4.png" alt="Проект 4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция контактов с центрированием -->
+        <section id="contacts" class="section centered-section">
+            <h2><span class="accent">></span> Контакты</h2>
+            <div class="card contact-card">
+                <p>Для сотрудничества:</p>
+                <p><a href="mailto:sonya9986Futureisnear@gmail.com">sonya9986Futureisnear@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-item">
+                <strong>AI-Инструмент:</strong> DeepSeek (~4 часа)
+            </div>
+            <div class="footer-item">
+                <strong>JS-Функционал:</strong> Мобильное меню, эффект печатной машинки, анимация курсора "Ghost".
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Моё Портфолио. System Online.</p>
+    </footer>
+
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/granim@2.0.0/dist/granim.min.js"></script>
+</body>
+</html>
