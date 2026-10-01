@@ -1,6 +1,6 @@
 /* === БАЗОВЫЕ НАСТРОЙКИ И ПЕРЕМЕННЫЕ === */
 :root {
-    --bg-black: #0a0a0a;
+    --bg-black: #000000;
     --bg-card: rgba(0, 20, 0, 0.6);
     --terminal-green: #00ff41;
     --terminal-green-dim: #008f11;
